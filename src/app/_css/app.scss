@@ -63,7 +63,6 @@ body {
   color: var(--color-base-800);
 }
 
-
 ::-moz-selection {
   background: var(--color-dark-50);
   color: var(--color-base-800);
@@ -105,13 +104,14 @@ p {
 
 ul,
 ol {
-  padding: 0;
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 a {
   color: var(--color-dark-500);
+  text-decoration: none;
 
   &:focus {
     opacity: .8;
